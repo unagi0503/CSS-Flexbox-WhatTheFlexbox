@@ -8,11 +8,11 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 /* Some default styles to make each box visible */
 .box {
-  color:white;
-  font-size: 30px;
-  text-align: center;
-  text-shadow:4px 4px 0 rgba(0,0,0,0.1);
-  padding:10px;
+	color:white;
+	font-size: 100px;
+	text-align: center;
+	text-shadow:4px 4px 0 rgba(0,0,0,0.1);
+	padding:10px;
 }
 
 /* Colours for each box */
@@ -30,16 +30,40 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 /* We start writing out flexbox here. The above is just page setup */
 .container {
-  display:flex;
-  border:10px solid mistyrose /* goldenrod */;
-  
+	display:flex;
+	border:10px solid mistyrose /* goldenrod */;
+	
+	align-items:center;
+	/* align-items is all about align items on the cross axis, so you need to set a value of the height of the container to see the effect of "aling-items:center".  */
+	height:100vh;
+	
+	align-items:flex-start;
+	align-items:flex-end;
+	align-items:center;
+	align-items:stretch; /* This is the default value of align-items */
+	align-items:baseline;
+	
+	flex-direction:column;
 }
 
 
+/* The following is an addition for illustrating the effect of "align-items:baseline;"
 
-
-
-
+.box1 {
+	font-size: 30px;
+}
+.box3 {
+	font-size: 150px;
+}
+.box4 {
+	font-size: 20px;
+}
+.box5 {
+	font-size: 10px;
+}
+.box10 {
+	font-size: 77px;
+} */
 
 
 

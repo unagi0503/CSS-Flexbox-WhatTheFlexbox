@@ -8,11 +8,11 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 /* Some default styles to make each box visible */
 .box {
-  color:white;
-  font-size: 30px;
-  text-align: center;
-  text-shadow:4px 4px 0 rgba(0,0,0,0.1);
-  padding:10px;
+	color:white;
+	font-size: 30px;
+	text-align: center;
+	text-shadow:4px 4px 0 rgba(0,0,0,0.1);
+	padding:10px;
 }
 
 /* Colours for each box */
@@ -30,24 +30,23 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 /* We start writing out flexbox here. The above is just page setup */
 .container {
-  display:flex;
-  border:10px solid mistyrose /* goldenrod */;
-  
-  justify-content:flex-start; 
-  justify-content:flex-end; 
-  justify-content:center; 
-  justify-content:space-between; 
-  justify-content:space-around; 
-  /* height:100vh; */
-  
-  flex-direction:column;
-  min-height:100vh;
-  /* All the nice spacing in-between div blocks is gone when the value of flex-direction is set to "column" and justify-content's value is "space-around".
-  
-  When the main axis is set to be columin, the height of the container needs to be set explicitly, to make justif-content work properly. 
+	display:flex;
+	border:10px solid mistyrose /* goldenrod */;
 	
-	like this way, "min-height:100vh;"
-
+	justify-content:flex-start; 
+	justify-content:flex-end; 
+	justify-content:center; 
+	justify-content:space-between; 
+	justify-content:space-around;  
+	
+	flex-direction:column;
+	min-height:100vh;
+	/* All the nice spacing in-between div blocks is gone when the value of flex-direction is set to "column" and justify-content's value is "space-around".
+		
+		When the main axis is set to be column, the height of the container needs to be set explicitly, to make justif-content work properly. 
+		
+		like this way, "min-height:100vh;"
+		
 	*/
 	
 }
