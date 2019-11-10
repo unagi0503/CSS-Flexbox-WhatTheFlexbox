@@ -43,7 +43,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 	align-items:stretch; /* This is the default value of align-items */
 	align-items:baseline;
 	
-	flex-direction:column;
+	flex-direction:row;
 }
 
 
