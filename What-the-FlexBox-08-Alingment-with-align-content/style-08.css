@@ -8,11 +8,11 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 /* Some default styles to make each box visible */
 .box {
-  color:white;
-  font-size: 100px;
-  text-align: center;
-  text-shadow:4px 4px 0 rgba(0,0,0,0.1);
-  padding:10px;
+	color:white;
+	font-size: 100px;
+	text-align: center;
+	text-shadow:4px 4px 0 rgba(0,0,0,0.1);
+	padding:10px;
 }
 
 /* Colours for each box */
@@ -30,19 +30,19 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 /* We start writing out flexbox here. The above is just page setup */
 .container {
-  display:flex;
-  border:10px solid mistyrose /* goldenrod */;
-  height:100vh;
-  
-  align-content:flex-start;
-  align-content:flex-end;
-  align-content:space-around;
-  align-content:center;
-  justify-content:center;
-  /* aling-content takes an effect only when there are multiple lines of code. */
-  
-  /* To get some wrapping */
-  flex-wrap:wrap;
+	display:flex;
+	border:10px solid mistyrose /* goldenrod */;
+	height:100vh;
+	
+	align-content:flex-start;
+	align-content:flex-end;
+	align-content:space-around;
+	align-content:center;
+	justify-content:center;
+	/* aling-content takes an effect only when there are multiple lines of code. */
+	
+	/* To get some wrapping */
+	flex-wrap:wrap;
 }
 
 
